@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{1C11D618-A854-49B9-A6A0-400EC54F1867}</ProjectGuid>
+    <RootNamespace>WaterPlane</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Framework\Camera\Camera.cpp" />
+    <ClCompile Include="Framework\Camera\CameraObject.cpp" />
+    <ClCompile Include="Framework\Manager\AllManager.cpp" />
+    <ClCompile Include="Framework\Mesh\XFile\MeshExplosion.cpp" />
+    <ClCompile Include="Framework\Mesh\XFile\Sphere.cpp" />
+    <ClCompile Include="Framework\Mesh\XFile\XFile.cpp" />
+    <ClCompile Include="Framework\Object\GameObject\D3DGameObject.cpp" />
+    <ClCompile Include="Framework\Object\ModelObject\SkydomeDrawerMain.cpp" />
+    <ClCompile Include="Framework\Object\ModelObject\SkydomeObject.cpp" />
+    <ClCompile Include="Framework\Object\WaterPlane\WaterPlaneDrawer.cpp" />
+    <ClCompile Include="Framework\Object\WaterPlane\WaterPlaneObject.cpp" />
+    <ClCompile Include="Process.cpp" />
+    <ClCompile Include="Scene\CubeMapTest.cpp" />
+    <ClCompile Include="Scene\DemoScene\DemoScene.cpp" />
+    <ClCompile Include="Scene\GUI\GUI_Function.cpp" />
+    <ClCompile Include="Scene\GUI\GUI_Render.cpp" />
+    <ClCompile Include="Scene\MessageManager\Messenger.cpp" />
+    <ClCompile Include="System\App.cpp" />
+    <ClCompile Include="System\Direct9\CDirectXGraphics.cpp" />
+    <ClCompile Include="System\DirectXGraphics\CDG_AddAlphaDepth.cpp" />
+    <ClCompile Include="System\DirectXGraphics\CDG_Exit.cpp" />
+    <ClCompile Include="System\DirectXGraphics\CDG_Init.cpp" />
+    <ClCompile Include="System\DirectXGraphics\CDG_Init_Utility.cpp" />
+    <ClCompile Include="System\DirectXGraphics\CDG_ShaderCompiler.cpp" />
+    <ClCompile Include="System\DirectXGraphics\CDG_UseRender.cpp" />
+    <ClCompile Include="System\DirectXGraphics\Init_MoreDetail.cpp" />
+    <ClCompile Include="System\DirectxTex\WICTextureLoader.cpp" />
+    <ClCompile Include="System\FPS\fps_controler.cpp" />
+    <ClCompile Include="System\IMGUI\imgui.cpp" />
+    <ClCompile Include="System\IMGUI\imgui_demo.cpp" />
+    <ClCompile Include="System\IMGUI\imgui_draw.cpp" />
+    <ClCompile Include="System\IMGUI\imgui_impl_dx11.cpp" />
+    <ClCompile Include="System\IMGUI\imgui_impl_win32.cpp" />
+    <ClCompile Include="System\IMGUI\imgui_widgets.cpp" />
+    <ClCompile Include="System\Shader II\ShaderCast\ShaderCastMain.cpp" />
+    <ClCompile Include="System\Shader II\ShaderCast\ShaderCastTextureResource.cpp" />
+    <ClCompile Include="System\Shader II\ShaderManager\ShaderManagerMain.cpp" />
+    <ClCompile Include="System\Shader II\ShaderSetMain.cpp" />
+    <ClCompile Include="System\Shader\BufferCreator.cpp" />
+    <ClCompile Include="System\Shader\CreateResourceView.cpp" />
+    <ClCompile Include="System\Shader\Shader.cpp" />
+    <ClCompile Include="System\Shader\ShaderCreator.cpp" />
+    <ClCompile Include="System\Utility\MathUtility.cpp" />
+    <ClCompile Include="System\WINDOW\ConsoleWindow.cpp" />
+    <ClCompile Include="System\WINDOW\CWindow.cpp" />
+    <ClCompile Include="System\WINDOW\Loop.cpp" />
+    <ClCompile Include="System\WINDOW\main.cpp" />
+    <ClCompile Include="System\WINDOW\WndProc.cpp" />
+    <ClCompile Include="TessellationTest.cpp" />
+    <ClCompile Include="Test4.cpp" />
+    <ClCompile Include="Tester2.cpp" />
+    <ClCompile Include="Tester3.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Framework\Camera\Camera.h" />
+    <ClInclude Include="Framework\Camera\CameraObject.h" />
+    <ClInclude Include="Framework\Drawer\3D\D3DDrawer3D.h" />
+    <ClInclude Include="Framework\Drawer\3D\Drawer3D.h" />
+    <ClInclude Include="Framework\Manager\AllManager.h" />
+    <ClInclude Include="Framework\Mesh\XFile\XFile.h" />
+    <ClInclude Include="Framework\Object\GameObject\D3DGameObject.h" />
+    <ClInclude Include="Framework\Object\GameObject\GameObject.h" />
+    <ClInclude Include="Framework\Object\GameObject\StateBaseObject.h" />
+    <ClInclude Include="Framework\Object\GameObject\StateMachine\StateBase.h" />
+    <ClInclude Include="Framework\Object\GameObject\StateMachine\StateMachine.h" />
+    <ClInclude Include="Framework\Object\GameObject\Transform\D3DTransform.h" />
+    <ClInclude Include="Framework\Object\GameObject\Transform\Transform.h" />
+    <ClInclude Include="Framework\Object\ModelObject\ModelObject.h" />
+    <ClInclude Include="Framework\Object\ModelObject\SkydomeDrawer.h" />
+    <ClInclude Include="Framework\Object\ModelObject\SkydomeObject.h" />
+    <ClInclude Include="Framework\Object\WaterPlane\WaterPlaneDrawer.h" />
+    <ClInclude Include="Framework\Object\WaterPlane\WaterPlaneObject.h" />
+    <ClInclude Include="Scene\DemoScene\DemoScene.h" />
+    <ClInclude Include="Scene\GUI\GUIPackage.h" />
+    <ClInclude Include="Scene\MessageManager\Delegate.h" />
+    <ClInclude Include="Scene\MessageManager\Messenger.h" />
+    <ClInclude Include="System\Config.h" />
+    <ClInclude Include="System\Dependence.h" />
+    <ClInclude Include="System\Direct9\CDirectxGraphics.h" />
+    <ClInclude Include="System\DirectoryManager\DirectoryManager.h" />
+    <ClInclude Include="System\DirectXGraphics\CDirectGraphics.h" />
+    <ClInclude Include="System\DirectxTex\DirectXTex.h" />
+    <ClInclude Include="System\DirectxTex\WICTextureLoader.h" />
+    <ClInclude Include="System\FPS\fps_controler.h" />
+    <ClInclude Include="System\IMGUI\imconfig.h" />
+    <ClInclude Include="System\IMGUI\imgui.h" />
+    <ClInclude Include="System\IMGUI\imgui_impl_dx11.h" />
+    <ClInclude Include="System\IMGUI\imgui_impl_win32.h" />
+    <ClInclude Include="System\IMGUI\imgui_internal.h" />
+    <ClInclude Include="System\IMGUI\imstb_rectpack.h" />
+    <ClInclude Include="System\IMGUI\imstb_textedit.h" />
+    <ClInclude Include="System\IMGUI\imstb_truetype.h" />
+    <ClInclude Include="System\Input\CDirectInput.h" />
+    <ClInclude Include="System\Shader II\ShaderCast\ShaderCast.h" />
+    <ClInclude Include="System\Shader II\ShaderManager\ShaderManagementSpace.h" />
+    <ClInclude Include="System\Shader II\ShaderManager\ShaderManager.h" />
+    <ClInclude Include="System\Shader II\ShaderSet.h" />
+    <ClInclude Include="System\Shader\Shader.h" />
+    <ClInclude Include="System\Utility\Exception.h" />
+    <ClInclude Include="System\Utility\MathUtility.h" />
+    <ClInclude Include="System\Utility\Memory.h" />
+    <ClInclude Include="System\Utility\NonCopyable.h" />
+    <ClInclude Include="System\WINDOW\CWindow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="HLSL\Common.hlsli" />
+    <None Include="HLSL\CubeMap\CubeMap.hlsli" />
+    <None Include="HLSL\SimpleModel\SimpleModel.hlsli" />
+    <None Include="HLSL\Skydome\Skydome.hlsli" />
+    <None Include="HLSL\Square\Square.hlsli" />
+    <None Include="HLSL\Tessellation\Wave.hlsli" />
+    <None Include="HLSL\Triangle\Triangle.hlsli" />
+    <None Include="HLSL\Water\Water.hlsli" />
+    <None Include="System\DirectxTex\DirectXTex.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="HLSL\CubeMap\CubeMapGeometry.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="HLSL\CubeMap\CubeMapPixel.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="HLSL\CubeMap\CubeMapVertex.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="HLSL\SimpleModel\SimpleModelPixel.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="HLSL\SimpleModel\SimpleModelVertex.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="HLSL\SimpleModel\Tester.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="HLSL\Skydome\SkydomePixel.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="HLSL\Skydome\SkydomeVertex.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="HLSL\Square\SquarePixel.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="HLSL\Square\SquareVertex.hlsl" />
+    <FxCompile Include="HLSL\Tessellation\WaveDomainShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Domain</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Domain</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Domain</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Domain</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="HLSL\Tessellation\WaveHullShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Hull</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Hull</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Hull</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Hull</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="HLSL\Tessellation\WavePixel.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="HLSL\Tessellation\WaveVertex.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="HLSL\Triangle\TrianglePixel.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="HLSL\Triangle\TriangleVertex.hlsl" />
+    <FxCompile Include="HLSL\Water\WaterPixel.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="HLSL\Water\WaterVertex.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\image\hara.jpg" />
+    <Image Include="Assets\image\p-man.jpg" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

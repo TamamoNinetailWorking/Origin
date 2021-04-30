@@ -1,0 +1,544 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="FrameWork">
+      <UniqueIdentifier>{dc95298f-9d94-4d43-b7e7-a82475f7f089}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Camera">
+      <UniqueIdentifier>{18a9fc47-3009-4976-bc20-75e910e140f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL">
+      <UniqueIdentifier>{9cc786fb-b731-4663-b457-fd1aae795313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{19783a8b-bc03-41fb-80b1-689c7e653ab5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\Square">
+      <UniqueIdentifier>{f956b353-bc31-46da-bced-8c2fa3207ce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\Triangle">
+      <UniqueIdentifier>{46b8480b-9c61-4b24-9ce7-869b53ba653e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Direct9">
+      <UniqueIdentifier>{d88aa0bf-6703-4408-af25-8651655a8e10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\DirectX11">
+      <UniqueIdentifier>{db31d323-43c0-40c7-9e39-315649097ab2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\DirectxTex">
+      <UniqueIdentifier>{f73f87d0-6995-4dc3-b0e9-ab6518b204ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\FPS">
+      <UniqueIdentifier>{bd46cc36-2b39-4653-a7bd-73d9d30b1f52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Input">
+      <UniqueIdentifier>{671cac59-c5a3-4078-8a8c-6067e4a1fee7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Shader">
+      <UniqueIdentifier>{bf6c4e9a-4ce3-44a9-8017-5dc44883d902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Utility">
+      <UniqueIdentifier>{2b199042-af85-4349-8f38-374534d7cf60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\WINDOW">
+      <UniqueIdentifier>{366f455b-11fc-4714-86d3-fbf40347f97e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\Water">
+      <UniqueIdentifier>{45575995-f6b7-499d-9c67-9fe624dc5b19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\SimpleModel">
+      <UniqueIdentifier>{d454398c-051e-4aa8-8645-3d35f9db8ff2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Mesh">
+      <UniqueIdentifier>{73c4a286-6ec0-4460-995c-e27a2baacf88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Mesh\XFile">
+      <UniqueIdentifier>{0a19c03c-9905-417d-9ba5-d25e4a2a1b67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Object">
+      <UniqueIdentifier>{10b05608-2b78-4410-b4f2-3b2d5ceb5288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Object\GameObject">
+      <UniqueIdentifier>{d647a42f-6616-4107-9e9a-76751eca6875}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Object\WaterPlane">
+      <UniqueIdentifier>{80d362b9-3264-4983-9608-a0e08bd84e14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Drawer">
+      <UniqueIdentifier>{d55e9e78-6b8a-48cb-a5ed-28360b454c51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Drawer\2D">
+      <UniqueIdentifier>{a0893024-b8d2-4df6-adcf-4467b8c4660e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Drawer\3D">
+      <UniqueIdentifier>{8ee78496-59b2-45cc-a2e9-65d8cd91321d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{9ae102c1-66ea-44dc-b255-f98e90324b84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\image">
+      <UniqueIdentifier>{19d4a190-b6eb-4d84-b03f-796fda2567cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Object\GameObject\Transform">
+      <UniqueIdentifier>{575140d5-a08f-4146-92c7-7a7817b1a20b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Object\GameObject\StateMachine">
+      <UniqueIdentifier>{e0954d4d-43a8-4fa7-9c99-b85e0e39b506}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Object\ModelObject">
+      <UniqueIdentifier>{22eaee64-f27c-4cd1-af29-fb841cb90d39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Manager">
+      <UniqueIdentifier>{cc08875e-2e3e-432f-adfa-321738ecce22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Shader II">
+      <UniqueIdentifier>{7c374d37-ca64-4693-96e6-9b6ab3bcc77c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Shader II\ShaderCast">
+      <UniqueIdentifier>{bef74e2b-80af-4f89-85be-94818a586044}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Shader II\ShaderManager">
+      <UniqueIdentifier>{333d4a25-c836-4ff9-8be3-f538a857ab2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\Skydome">
+      <UniqueIdentifier>{22751b3e-87af-404c-9ac3-318892b81429}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\DirectoryManager">
+      <UniqueIdentifier>{e5f7ef3f-98f7-46aa-9358-6ee4e6804e70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\IMGUI">
+      <UniqueIdentifier>{080a8428-406d-4a3c-87d1-50429b86b619}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{245eb683-580e-433e-b773-4e1d0cd601b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\GUI">
+      <UniqueIdentifier>{652cd247-71fa-4c8b-acc3-064b0e1f9bcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\DemoScene">
+      <UniqueIdentifier>{eee175a4-bc23-4831-892b-65e6dfa9fc1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\Tessellation">
+      <UniqueIdentifier>{ab652241-d78c-44ca-a543-9b1888eda778}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\MessageManager">
+      <UniqueIdentifier>{5550975a-6612-424b-96a6-d838123549d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\CubeMap">
+      <UniqueIdentifier>{66ecdc9f-6d7f-45c8-a5f5-e05c44ff0a0f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Framework\Camera\Camera.cpp">
+      <Filter>FrameWork\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="System\App.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Process.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Direct9\CDirectXGraphics.cpp">
+      <Filter>System\Direct9</Filter>
+    </ClCompile>
+    <ClCompile Include="System\DirectXGraphics\CDG_AddAlphaDepth.cpp">
+      <Filter>System\DirectX11</Filter>
+    </ClCompile>
+    <ClCompile Include="System\DirectXGraphics\CDG_Exit.cpp">
+      <Filter>System\DirectX11</Filter>
+    </ClCompile>
+    <ClCompile Include="System\DirectXGraphics\CDG_Init.cpp">
+      <Filter>System\DirectX11</Filter>
+    </ClCompile>
+    <ClCompile Include="System\DirectXGraphics\CDG_Init_Utility.cpp">
+      <Filter>System\DirectX11</Filter>
+    </ClCompile>
+    <ClCompile Include="System\DirectXGraphics\CDG_ShaderCompiler.cpp">
+      <Filter>System\DirectX11</Filter>
+    </ClCompile>
+    <ClCompile Include="System\DirectXGraphics\CDG_UseRender.cpp">
+      <Filter>System\DirectX11</Filter>
+    </ClCompile>
+    <ClCompile Include="System\DirectXGraphics\Init_MoreDetail.cpp">
+      <Filter>System\DirectX11</Filter>
+    </ClCompile>
+    <ClCompile Include="System\DirectxTex\WICTextureLoader.cpp">
+      <Filter>System\DirectxTex</Filter>
+    </ClCompile>
+    <ClCompile Include="System\FPS\fps_controler.cpp">
+      <Filter>System\FPS</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Shader\BufferCreator.cpp">
+      <Filter>System\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Shader\CreateResourceView.cpp">
+      <Filter>System\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Shader\Shader.cpp">
+      <Filter>System\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Shader\ShaderCreator.cpp">
+      <Filter>System\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="System\WINDOW\ConsoleWindow.cpp">
+      <Filter>System\WINDOW</Filter>
+    </ClCompile>
+    <ClCompile Include="System\WINDOW\CWindow.cpp">
+      <Filter>System\WINDOW</Filter>
+    </ClCompile>
+    <ClCompile Include="System\WINDOW\Loop.cpp">
+      <Filter>System\WINDOW</Filter>
+    </ClCompile>
+    <ClCompile Include="System\WINDOW\main.cpp">
+      <Filter>System\WINDOW</Filter>
+    </ClCompile>
+    <ClCompile Include="System\WINDOW\WndProc.cpp">
+      <Filter>System\WINDOW</Filter>
+    </ClCompile>
+    <ClCompile Include="Tester2.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Mesh\XFile\MeshExplosion.cpp">
+      <Filter>FrameWork\Mesh\XFile</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Mesh\XFile\Sphere.cpp">
+      <Filter>FrameWork\Mesh\XFile</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Mesh\XFile\XFile.cpp">
+      <Filter>FrameWork\Mesh\XFile</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Utility\MathUtility.cpp">
+      <Filter>System\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Object\GameObject\D3DGameObject.cpp">
+      <Filter>FrameWork\Object\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Camera\CameraObject.cpp">
+      <Filter>FrameWork\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Manager\AllManager.cpp">
+      <Filter>FrameWork\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Tester3.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Shader II\ShaderSetMain.cpp">
+      <Filter>System\Shader II</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Shader II\ShaderCast\ShaderCastMain.cpp">
+      <Filter>System\Shader II\ShaderCast</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Shader II\ShaderCast\ShaderCastTextureResource.cpp">
+      <Filter>System\Shader II\ShaderCast</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Shader II\ShaderManager\ShaderManagerMain.cpp">
+      <Filter>System\Shader II\ShaderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Test4.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Object\ModelObject\SkydomeDrawerMain.cpp">
+      <Filter>FrameWork\Object\ModelObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Object\ModelObject\SkydomeObject.cpp">
+      <Filter>FrameWork\Object\ModelObject</Filter>
+    </ClCompile>
+    <ClCompile Include="System\IMGUI\imgui.cpp">
+      <Filter>System\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="System\IMGUI\imgui_impl_dx11.cpp">
+      <Filter>System\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="System\IMGUI\imgui_draw.cpp">
+      <Filter>System\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="System\IMGUI\imgui_widgets.cpp">
+      <Filter>System\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\GUI\GUI_Render.cpp">
+      <Filter>Scene\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="System\IMGUI\imgui_impl_win32.cpp">
+      <Filter>System\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="System\IMGUI\imgui_demo.cpp">
+      <Filter>System\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\DemoScene\DemoScene.cpp">
+      <Filter>Scene\DemoScene</Filter>
+    </ClCompile>
+    <ClCompile Include="TessellationTest.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Object\WaterPlane\WaterPlaneDrawer.cpp">
+      <Filter>FrameWork\Object\WaterPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\GUI\GUI_Function.cpp">
+      <Filter>Scene\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Object\WaterPlane\WaterPlaneObject.cpp">
+      <Filter>FrameWork\Object\WaterPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\MessageManager\Messenger.cpp">
+      <Filter>Scene\MessageManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\CubeMapTest.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Framework\Camera\Camera.h">
+      <Filter>FrameWork\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Config.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Dependence.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Direct9\CDirectxGraphics.h">
+      <Filter>System\Direct9</Filter>
+    </ClInclude>
+    <ClInclude Include="System\DirectxTex\DirectXTex.h">
+      <Filter>System\DirectxTex</Filter>
+    </ClInclude>
+    <ClInclude Include="System\DirectxTex\WICTextureLoader.h">
+      <Filter>System\DirectxTex</Filter>
+    </ClInclude>
+    <ClInclude Include="System\FPS\fps_controler.h">
+      <Filter>System\FPS</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Input\CDirectInput.h">
+      <Filter>System\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="System\DirectXGraphics\CDirectGraphics.h">
+      <Filter>System\DirectX11</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Shader\Shader.h">
+      <Filter>System\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Utility\Memory.h">
+      <Filter>System\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Utility\NonCopyable.h">
+      <Filter>System\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Utility\Exception.h">
+      <Filter>System\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="System\WINDOW\CWindow.h">
+      <Filter>System\WINDOW</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Mesh\XFile\XFile.h">
+      <Filter>FrameWork\Mesh\XFile</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Object\GameObject\D3DGameObject.h">
+      <Filter>FrameWork\Object\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Object\GameObject\GameObject.h">
+      <Filter>FrameWork\Object\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Drawer\3D\D3DDrawer3D.h">
+      <Filter>FrameWork\Drawer\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Drawer\3D\Drawer3D.h">
+      <Filter>FrameWork\Drawer\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Camera\CameraObject.h">
+      <Filter>FrameWork\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Utility\MathUtility.h">
+      <Filter>System\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Object\GameObject\Transform\D3DTransform.h">
+      <Filter>FrameWork\Object\GameObject\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Object\GameObject\Transform\Transform.h">
+      <Filter>FrameWork\Object\GameObject\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Object\GameObject\StateMachine\StateBase.h">
+      <Filter>FrameWork\Object\GameObject\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Object\GameObject\StateMachine\StateMachine.h">
+      <Filter>FrameWork\Object\GameObject\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Object\GameObject\StateBaseObject.h">
+      <Filter>FrameWork\Object\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Object\ModelObject\ModelObject.h">
+      <Filter>FrameWork\Object\ModelObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Manager\AllManager.h">
+      <Filter>FrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Shader II\ShaderSet.h">
+      <Filter>System\Shader II</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Shader II\ShaderCast\ShaderCast.h">
+      <Filter>System\Shader II\ShaderCast</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Shader II\ShaderManager\ShaderManagementSpace.h">
+      <Filter>System\Shader II\ShaderManager</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Shader II\ShaderManager\ShaderManager.h">
+      <Filter>System\Shader II\ShaderManager</Filter>
+    </ClInclude>
+    <ClInclude Include="System\DirectoryManager\DirectoryManager.h">
+      <Filter>System\DirectoryManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Object\ModelObject\SkydomeDrawer.h">
+      <Filter>FrameWork\Object\ModelObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Object\ModelObject\SkydomeObject.h">
+      <Filter>FrameWork\Object\ModelObject</Filter>
+    </ClInclude>
+    <ClInclude Include="System\IMGUI\imgui.h">
+      <Filter>System\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="System\IMGUI\imgui_impl_dx11.h">
+      <Filter>System\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="System\IMGUI\imgui_internal.h">
+      <Filter>System\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="System\IMGUI\imconfig.h">
+      <Filter>System\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="System\IMGUI\imstb_textedit.h">
+      <Filter>System\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="System\IMGUI\imstb_rectpack.h">
+      <Filter>System\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="System\IMGUI\imstb_truetype.h">
+      <Filter>System\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="System\IMGUI\imgui_impl_win32.h">
+      <Filter>System\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\GUI\GUIPackage.h">
+      <Filter>Scene\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\DemoScene\DemoScene.h">
+      <Filter>Scene\DemoScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Object\WaterPlane\WaterPlaneDrawer.h">
+      <Filter>FrameWork\Object\WaterPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Object\WaterPlane\WaterPlaneObject.h">
+      <Filter>FrameWork\Object\WaterPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\MessageManager\Delegate.h">
+      <Filter>Scene\MessageManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\MessageManager\Messenger.h">
+      <Filter>Scene\MessageManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HLSL\Common.hlsli">
+      <Filter>HLSL</Filter>
+    </None>
+    <None Include="HLSL\Square\Square.hlsli">
+      <Filter>HLSL\Square</Filter>
+    </None>
+    <None Include="HLSL\Triangle\Triangle.hlsli">
+      <Filter>HLSL\Triangle</Filter>
+    </None>
+    <None Include="System\DirectxTex\DirectXTex.inl">
+      <Filter>System\DirectxTex</Filter>
+    </None>
+    <None Include="HLSL\Water\Water.hlsli">
+      <Filter>HLSL\Water</Filter>
+    </None>
+    <None Include="HLSL\SimpleModel\SimpleModel.hlsli">
+      <Filter>HLSL\SimpleModel</Filter>
+    </None>
+    <None Include="HLSL\Skydome\Skydome.hlsli">
+      <Filter>HLSL\Skydome</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+    <None Include="HLSL\Tessellation\Wave.hlsli">
+      <Filter>HLSL\Tessellation</Filter>
+    </None>
+    <None Include="HLSL\CubeMap\CubeMap.hlsli">
+      <Filter>HLSL\CubeMap</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="HLSL\Square\SquarePixel.hlsl">
+      <Filter>HLSL\Square</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\Square\SquareVertex.hlsl">
+      <Filter>HLSL\Square</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\Triangle\TrianglePixel.hlsl">
+      <Filter>HLSL\Triangle</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\Triangle\TriangleVertex.hlsl">
+      <Filter>HLSL\Triangle</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\Water\WaterVertex.hlsl">
+      <Filter>HLSL\Water</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\Water\WaterPixel.hlsl">
+      <Filter>HLSL\Water</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\SimpleModel\SimpleModelPixel.hlsl">
+      <Filter>HLSL\SimpleModel</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\SimpleModel\SimpleModelVertex.hlsl">
+      <Filter>HLSL\SimpleModel</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\Skydome\SkydomeVertex.hlsl">
+      <Filter>HLSL\Skydome</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\Skydome\SkydomePixel.hlsl">
+      <Filter>HLSL\Skydome</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\SimpleModel\Tester.hlsl">
+      <Filter>HLSL\SimpleModel</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\Tessellation\WaveHullShader.hlsl">
+      <Filter>HLSL\Tessellation</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\Tessellation\WavePixel.hlsl">
+      <Filter>HLSL\Tessellation</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\Tessellation\WaveVertex.hlsl">
+      <Filter>HLSL\Tessellation</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\Tessellation\WaveDomainShader.hlsl">
+      <Filter>HLSL\Tessellation</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\CubeMap\CubeMapVertex.hlsl">
+      <Filter>HLSL\CubeMap</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\CubeMap\CubeMapGeometry.hlsl">
+      <Filter>HLSL\CubeMap</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\CubeMap\CubeMapPixel.hlsl">
+      <Filter>HLSL\CubeMap</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\image\hara.jpg">
+      <Filter>Assets\image</Filter>
+    </Image>
+    <Image Include="Assets\image\p-man.jpg">
+      <Filter>Assets\image</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

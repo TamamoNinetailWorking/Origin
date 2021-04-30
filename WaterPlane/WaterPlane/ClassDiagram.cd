@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CCameraObject">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="CCameraObject::ConstantBuffer" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Framework\Camera\CameraObject.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>KCQBAAAQAgAgAQiAAAACAAAIInAMAAgAAAKqAISAQBA=</HashCode>
+      <FileName>Framework\Camera\CameraObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CXFile">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAVUlAEAYIAEQYABAAAABQAAAAAgBgAAIAAQAIBAQ=</HashCode>
+      <FileName>Framework\Mesh\XFile\XFile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDirectGraphics">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="CDirectGraphics::BlendState" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>System\DirectXGraphics\CDirectGraphics.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>UABBqJSrEDgKM7ABQgETkRLUBYABEQqiZRQiAABEAAY=</HashCode>
+      <FileName>System\DirectXGraphics\CDirectGraphics.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CShaderSet">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAEAACAAAAAIAAAAAQACAACBMAAAAQADADA=</HashCode>
+      <FileName>System\Shader II\ShaderSet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CShaderManager">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAEAAEQEAABCAAAAATBAAAAAQjAAA=</HashCode>
+      <FileName>System\Shader II\ShaderManager\ShaderManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CWINDOW">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ACAEAAQIACACAAABAAAAIQICFAAAAAiIAIhAAQIgIgQ=</HashCode>
+      <FileName>System\WINDOW\CWindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="メイリオ" Size="9" />
+</ClassDiagram>
